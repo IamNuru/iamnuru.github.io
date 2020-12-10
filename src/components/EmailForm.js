@@ -98,9 +98,6 @@ const EmailForm = (e) =>{
         fontSize:15,
         margin:'-15px 0px -5px 15px'
     }
-    const sucin = {
-        backgroundColor:'yellow'
-    }
     return (
             <fieldset>
                 <legend>Direct Message</legend>
