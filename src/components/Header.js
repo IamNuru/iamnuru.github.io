@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Header= (props) => {
-    const theme = props.theme
     const btn = {
         fontWeight:600,
         height:'50px',
@@ -28,9 +27,6 @@ const Header= (props) => {
         gridTemplateColumns:'repeat(auto-fit,minmax(300px,1fr)',
         gridGap:'1em',
         marginTop:'1.5em'
-    }
-    function commingSoon(){
-        alert('Page Comming Soon')
     }
 
     // let bgColor = theme.ui==='white' ? 'rgb(138, 135, 135)' : 'black';
