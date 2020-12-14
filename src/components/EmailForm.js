@@ -98,11 +98,14 @@ const EmailForm = (e) =>{
         fontSize:15,
         margin:'-15px 0px -5px 15px'
     }
+    const styleForm = {
+        marginLeft:'-10%'
+    }
     return (
             <fieldset>
                 <legend>Direct Message</legend>
                 <div className="content">
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={handleSubmit} style={styleForm}>
                         <div className="p-input-wrap">
                             <label htmlFor="from_name">Your Name:</label>
                             {/* display error message */}
