@@ -10,7 +10,7 @@ import ToggleTheme from './components/ToggleTheme';
 // const { useEffect } = React
 
 const App = ({ hideLoader  }) =>{
-  useEffect(hideLoader, []);
+  useEffect(hideLoader, [hideLoader]);
   return (
     <div className="container">
       <ThemeContextProvider>

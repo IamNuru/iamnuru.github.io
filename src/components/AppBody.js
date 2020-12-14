@@ -11,6 +11,7 @@ import "aos/dist/aos.css"
 
 
 const AppBody = (props) => {
+
     useEffect(() => {
         AOS.init({
             once:true
