@@ -1,6 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react';
+import officeImage from '../images/office.jpg';
 
 const Header= (props) => {
+    const [ imgLoader, setImgLoader ] = useState(true)
+
     const btn = {
         fontWeight:600,
         height:'50px',
@@ -29,22 +32,20 @@ const Header= (props) => {
         marginTop:'1.5em'
     }
 
-    // let bgColor = theme.ui==='white' ? 'rgb(138, 135, 135)' : 'black';
+    const setBgIfLoaderNull = {
+        backgroundColor: 'rgb(7, 7, 7)',
+        opacity: 0.8,
+    }
     return (
         <article className="wrap-shimmer">
             <div className="bg-photo">
+                <div className="bg-image">
+                    <img src={officeImage} onLoad={() => setImgLoader(false)} alt=""/>
+                </div>
                 <div className="on-photo" 
-                // style={{backgroundColor:bgColor}}
-                >
+                style={ imgLoader ? setBgIfLoaderNull : {}}>
                     <h2 className="shimmer name">ABDULAI NURU-DEEN</h2>
                     <h3 className="shimmer dev" style={{fontFamily:'Trebuchet Ms'}}>WEB DEVELOPER</h3>
-                    <div className="biography">
-                        {/* <p style={{color:theme.textColor}}>
-                            I am an intermediate full stack web developer with over 2
-                                years experience. You can
-                            email me via the handle 
-                        </p> */}
-                    </div>
                     <div style={wrapBtns}>
                         <a href="#contact" style={{...btn, ...btnHire}} 
                             className="headerBtn1" data-aos="fade-up-right">
@@ -52,12 +53,11 @@ const Header= (props) => {
                             <div>Hire Me</div>
                         </a>
                         <a href="#projects" style={{...btn, ...btnProjects}}
-                            className="headerBtn2" data-aos="slide-up-right">
+                            className="headerBtn2" data-aos="fade-up-left">
                             <div></div>
                             <div>My works</div>
                         </a> 
                     </div>
-                    
                 </div>
             </div>
         </article>
