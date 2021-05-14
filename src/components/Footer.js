@@ -51,7 +51,7 @@ function Footer() {
             </table>
             <hr className="footer-hr" />
             <div className="copyright" >
-                &copy;nurudeen. All right 
+                &copy;nurudeen. All right reserved
                 <div>Build with <span style={{color:'red'}}>&#10084; </span>using ReactJs</div>
             </div>
         
