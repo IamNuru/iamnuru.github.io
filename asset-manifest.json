@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4d44c109.chunk.css",
-    "main.js": "/static/js/main.5a93f6eb.chunk.js",
-    "main.js.map": "/static/js/main.5a93f6eb.chunk.js.map",
+    "main.js": "/static/js/main.be4d92eb.chunk.js",
+    "main.js.map": "/static/js/main.be4d92eb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.df18c921.js",
     "runtime-main.js.map": "/static/js/runtime-main.df18c921.js.map",
     "static/css/2.ec02d681.chunk.css": "/static/css/2.ec02d681.chunk.css",
@@ -13,18 +13,18 @@
     "static/css/main.4d44c109.chunk.css.map": "/static/css/main.4d44c109.chunk.css.map",
     "static/js/2.6b5c5308.chunk.js.LICENSE.txt": "/static/js/2.6b5c5308.chunk.js.LICENSE.txt",
     "static/media/App.css": "/static/media/PatuaOne-Regular.8966badf.ttf",
+    "static/media/jesash.8df709d5.png": "/static/media/jesash.8df709d5.png",
     "static/media/nuru.795ae991.jpg": "/static/media/nuru.795ae991.jpg",
+    "static/media/observergh.c0481a95.png": "/static/media/observergh.c0481a95.png",
     "static/media/office.586c27ea.jpg": "/static/media/office.586c27ea.jpg",
-    "static/media/project1.8828e188.png": "/static/media/project1.8828e188.png",
-    "static/media/project2.7066b4f2.png": "/static/media/project2.7066b4f2.png",
-    "static/media/project3.e55aa848.png": "/static/media/project3.e55aa848.png",
-    "static/media/project4.4d36497e.png": "/static/media/project4.4d36497e.png"
+    "static/media/picturesApp.70dba997.png": "/static/media/picturesApp.70dba997.png",
+    "static/media/weatherApp.b51e01e8.png": "/static/media/weatherApp.b51e01e8.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df18c921.js",
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.6b5c5308.chunk.js",
     "static/css/main.4d44c109.chunk.css",
-    "static/js/main.5a93f6eb.chunk.js"
+    "static/js/main.be4d92eb.chunk.js"
   ]
 }
