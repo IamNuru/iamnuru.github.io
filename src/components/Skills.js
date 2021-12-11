@@ -9,7 +9,7 @@ const Skills = (props) => {
                     // style={{backgroundImage:bgImage,color:theme.textColor}}
                     >
                     <fieldset>
-                        <legend>Skills</legend>
+                        <legend>SKILLS</legend>
                         <div className="my-skills">
                             <div className="strong-fields">
                                 <h2>Strong Fields</h2>

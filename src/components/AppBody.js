@@ -27,21 +27,21 @@ const AppBody = (props) => {
             style={{backgroundColor:theme.ui, color:theme.textColor,paddingBottom:'10px'}}>
             <Header theme={theme}/>
 
-            <article id="about" data-aos="flip-up">
+            <article id="about" className='mt-4' data-aos="flip-up">
                 <About />
             </article>
 
-            <article id="skills" data-aos="fade-right">
+            <article id="skills" className='mt-8' data-aos="fade-right">
                 <Skills theme={theme} skills={skills}/>
             </article>
 
-            <article className="contact" id="contact"  data-aos="fade-left">
+            <article className="contact mt-4" id="contact"  data-aos="fade-left">
                 <div className="wrap-form-projects">
-                    <div className="email-form">
-                        <EmailForm />
-                    </div>
                     <div className="projects" id="projects">
                         <Projects />
+                    </div>
+                    <div className="email-form">
+                        <EmailForm />
                     </div>
                 </div>
             </article>

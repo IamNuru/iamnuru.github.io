@@ -8,11 +8,11 @@ export class ThemeContextProvider extends Component {
         light: { textColor: 'black', bg:'white', ui:'white' },
         dark: { textColor: 'white', bg:'#ddd', ui:'#242424' },
         skills:{
-            strongFields:['Laravel','Reactjs','Bootstrap','Javascript'],
+            strongFields:['Reactjs','Laravel','Bootstrap','Javascript'],
 
             backEnd:['Laravel','php'],
 
-            frontEnd:['HTML','Css','Vue','ReactJs','Javascript','Bootstrap','tailwindCss'],
+            frontEnd:['HTML','Css','ReactJs','JavaScript','Bootstrap','tailwindCss'],
 
             other:['SQL','Oracle','VB6','Excel']
         }

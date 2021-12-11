@@ -100,7 +100,7 @@ const EmailForm = (e) =>{
     }
     return (
             <fieldset>
-                <legend>Direct Message</legend>
+                <legend>SEND MESSAGE</legend>
                 <div className="content">
                     <form onSubmit={handleSubmit}>
                         <div className="p-input-wrap">

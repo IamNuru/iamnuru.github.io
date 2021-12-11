@@ -33,7 +33,31 @@ ul,li{
   background-color:#00D7E5;
   color:white;
 }
+.repo-link{
+  font-weight:600;
+  text-align:center;
+  font-size:21px;
+  border-radius:0.4rem;
+  background-color:aliceBlue;
+  border:2px solid #72dced;
+  position: absolute;
+  bottom:0;
+  width:90%;
+  max-width:250px;
+  margin-left:4%;
+  margin-bottom:0.1rem;
+  box-shadow: 0 8px 16px 0 rgba(250,250,250,0.2), 0 6px 20px 0 rgba(250,250,250,0.19);
 
+}
+.repo-link-tag{
+  background-color:#47d1df;
+  border-radius: 20px solid gray;
+}
+.repo-link-tag:hover{
+  background-color:#05242b;
+  color:white;
+  border-radius:0.4rem;
+}
 /* .cover-image{
 background-image: url('nuru.jpg');
 height: 100%; 
@@ -49,58 +73,7 @@ height: 8px;
 background: white;
 }
 
-.scroll-bar {
-height: 8px;
-background: #4caf50;
-width: 0%;
-}
 
-.skill-progress {
-width: 90%;   
-position: relative;
-padding: 3px;
-margin-left: 10%;
-background-color: rgb(247, 189, 189);
-border-radius: 3px;
-}
-
-.skill-percent {
-position: absolute;   
-left: 50%;
-font-size: 20px !important;
-margin-top:-10px;
-}
-
-.skill-bar {
-height: 20px;
-background-color: green;
-border-top-right-radius: 5px;
-border-bottom-right-radius: 5px;
-}
-.skill-progress .laravel{
-width: 80%;
-}
-.skill-progress .vue{
-width: 60%;
-}
-.skill-progress .html{
-width: 80%;
-}
-.skill-progress .bootstrap{
-width: 85%;
-}
-.skill-progress .css{
-width: 80%;
-}
-.skill-progress .jquery{
-width: 80%;
-}
-.skill-progress .php{
-width: 75%;
-}
-.skill-progress .js{
-width: 70%;
-}
 
 .wrap-shimmer{
   overflow:auto;
@@ -117,7 +90,7 @@ width: 70%;
   z-index: 1000; 
   transition:0.5s;
 }
-.head-wrapper>div{
+.head-wrapper > div{
   display: inline-block;
 }
 .logo{
@@ -141,7 +114,7 @@ width: 35px;
 }
 legend{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 26px;
+font-size: 24px;
 font-weight: 500;
 }
 fieldset{
@@ -158,6 +131,9 @@ margin:2% 5%;
 .w-100{
   width:100%
 } 
+.d-flex{
+  display:flex;
+}
 .d-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
@@ -166,12 +142,22 @@ margin:2% 5%;
 .d-grid td{
   overflow:auto
 }
+.mt-4{
+  margin-top:2rem;
+}
+.mt-8{
+  margin-top:2rem;
+}
 .footer-hr{
   background-color:white
 }
-.footer-table-body > tr > td div.fa{
-  background: #b2e2eb;
-  border-radius: 2em;
+.social-item{
+  margin-left: 0.5rem;
+}
+.social-item a{
+  text-decoration: none;
+}
+.social-item > a .fa{
   padding: 0.2em;
   color: #DA484C;
 }
@@ -186,51 +172,29 @@ margin:2% 5%;
   background-position: center;
   width:100%;
   background-size: cover;
-  height:100vh;
-}
-.bg-photo > .bg-image img{
-  width:inherit;
-  height:inherit;
+  height:100%;
+  background-attachment: fixed;
 }
 .bg-photo{
   position:relative;
   margin-top: 57px;
-  border-bottom-right-radius: 300px;
-  /* background-image: url("./images/office.jpg"); */
-  /* background-repeat: no-repeat;
-  background-position: center; */
-  /* min-height: 500px;
-  max-height: 800px; */
-  height:100vh;
   overflow-y: hidden;
   overflow-x: hidden;
   width:100%;
-  /* background-size: cover; */
+}
+.bg-photo > .bg-image img{
+  width: 100%;
+  margin:auto;
 }
 
 
-.footer-table-body tr td{
-padding-right:8em;
-}
-.footer-table-body tr td div{
-display: inline-block;
-}
-.footer-table-body tr td div img{
-width: 30px; height: 30px; border-radius:50%;
-}
-thead tr{
-text-align: left;
-font-size: 26px; font-weight: 500; color: #023E73;
-text-decoration: underline; text-decoration-color: rgb(50, 43, 83);
-}
-.footer-table-body tr td .social-desc{
-position:absolute; font-size: 20px; padding-left:3px;
+
+.social-desc{
+font-size: 16px; padding-left:3px;
 font-family:'Times New Roman', Times, serif; 
 font-weight:400;color:white;
-max-width:150px;
-overflow:hidden;
-text-overflow: ellipsis;
 }
+
 .logo .sp-2{
   font-size:26px; color: #062B61;
 }
@@ -290,12 +254,12 @@ text-overflow: ellipsis;
 }
 
 .content{
-font-weight:500;
+font-weight:400;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-font-size: 26px;
-line-height: 40px;
+font-size: 22px;
+line-height: 32px;
 word-wrap: wrap;
-word-spacing: 3px;
+word-spacing: 2.2px;
 padding:20px;
 }
 .content ul li{
@@ -449,7 +413,7 @@ text-shadow: 2px #00C7DA;
 .on-photo{
   text-align:center; 
   top:0;
-  height:100vh;
+  height:100%;
   position:absolute;
   width:100%;
 }
@@ -671,6 +635,16 @@ display:none !important;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 50px;}
   .sidenav a {font-size: 18px;}
+  .bg-image img{
+    height:100vh
+  }
+  
+}  
+@media screen and (max-height: 760px) {
+  .bg-image img{
+    height:70vh
+  }
+  
 }  
 @media screen and (max-width: 760px) {
   .desktop-menus{display:none !important;}
@@ -678,6 +652,7 @@ display:none !important;
   .contact{
     margin:0.2rem !important;
   }
+  
 }  
 @media screen and (min-width: 760px) {
   .sidenav{width:0px !important}
