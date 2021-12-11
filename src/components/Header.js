@@ -36,6 +36,15 @@ const Header= (props) => {
         backgroundColor: 'rgb(7, 7, 7)',
         opacity: 0.8,
     }
+
+    /* const parallel = {
+        backgroundAttachment: "fixed",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+    } */
+
+
     return (
         <article className="wrap-shimmer">
             <div className="bg-photo">
