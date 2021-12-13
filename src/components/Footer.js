@@ -17,7 +17,7 @@ function Footer() {
                     </a>
                 </div>
                 <div className="social-item">
-                    <a className='d-flex' href="https://twitter.com/intent/tweet?screen_name=mr_nuru_deen">
+                    <a className='d-flex' href="https://twitter.com/intent/tweet?screen_name=nuru_deenA">
                         <div className="fa fa-twitter fa-1-5x" style={{padding:"0px 3px"}}></div>
                         <div className="social-desc" title="twitter">Twitter</div>
                     </a>
