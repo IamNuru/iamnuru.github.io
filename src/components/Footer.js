@@ -29,13 +29,13 @@ function Footer() {
                     </a>
                 </div>
                 <div className="social-item">
-                    <a className='d-flex' href="">
+                    <a className='d-flex' href="mailto: abdulainurudeentitiaka@gmail.com">
                         <div className="fa fa-envelope fa-1-5x" style={{padding:"0px 3px"}}></div>
                         <div className="social-desc" title="abdulainurudeentitiaka@gmail.com">email</div>
                     </a>
                 </div>
                 <div className="social-item">
-                    <a className='d-flex' href="">
+                    <a className='d-flex' href="tel:+233543027058">
                         <div className="fa fa-phone fa-1-5x" style={{padding:"0px 3px"}}></div>
                         <div className="social-desc" title="call">+233(0)543027058</div>
                     </a>
