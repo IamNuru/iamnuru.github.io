@@ -55,7 +55,7 @@ const Projects = (e) =>{
             title:"Pictures",
             description:"I used a photos api to build this app for searching images",
             imageName:"picturesApp.png",
-            url:"https://cocky-panini-fd7f7d.netlify.app/",
+            url:"https://nuru-mini-gallery.netlify.app/",
             imgAlt:"Pictures App",
             repo:"https://github.com/IamNuru/pics.git",
         },
